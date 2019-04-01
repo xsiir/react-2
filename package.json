@@ -5,14 +5,15 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open",
-    "build": "webpack --mode development"
+    "build": "webpack --mode development",
+    "gulp": "gulp prepare-libs"
   },
   "author": "aziemianski",
   "devDependencies": {
-    "axios": "^0.18.0",
     "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.3.1",
     "@babel/preset-react": "^7.0.0",
+    "axios": "^0.18.0",
     "babel-loader": "^8.0.5",
     "bootstrap": "^4.3.1",
     "css-loader": "^2.1.0",
